@@ -1,0 +1,10 @@
+#jumbotron {
+  background-image: url("https://www.u.com.my/sites/all/themes/umobile/images/pages/metatag/batch-4/30_friendfinder.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  background: linear-gradient(60deg, #2980b9, #6dd5fa, #ffffff);
+  background-repeat: no-repeat;
+}
