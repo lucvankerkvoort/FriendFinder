@@ -36,6 +36,29 @@
   <body>
     <div class="container">
       <div class="row mt-5"></div>
+      <form>
+        <div class="row justify-content-center">
+          <div class="form-group">
+            <label for="name">What is your name?</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              name="name"
+              placeholder="Example: Steve Jobs"
+            />
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="form-group">
+            <label for="gender">Gender</label>
+            <select class="form-control" id="gender" name="gender">
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+          </div>
+        </div>
+      </form>
       <form id="survey">
         <div class="row justify-content-center mt-5">
           <button
@@ -52,6 +75,6 @@
       <div class="row mt-5"></div>
     </div>
 
-    <script src="./data/friends.js"></script>
+    <script src="./data/survey.js"></script>
   </body>
 </html>
