@@ -3,7 +3,7 @@ var express = require("express");
 
 // We invoke the express module inside of the app object
 var app = express();
-var PORT = 3000;
+var PORT = process.env.PORT || 3000;
 
 // We use express static to use static data on the server through middleware
 app.use(express.static("app"));

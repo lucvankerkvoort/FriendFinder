@@ -121,8 +121,6 @@ $("#submit").on("click", function() {
       var photo = $("<img>");
       photo.attr("src", data.photo);
       photo.attr("width", "400px");
-      var friendscore = $("<p>");
-      friendscore.text(data.friendscore);
 
       bestFriend.append(name, gender, photo);
       $("#best-friend").append(bestFriend);
